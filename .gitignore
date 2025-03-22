@@ -1,2 +1,9 @@
 Datasets/*
 !Datasets/final/
+# Exclude large pickle files
+train_data.pkl
+val_data.pkl
+# Exclude Mac files
+.DS_Store
+# Exclude Jupyter checkpoints
+.ipynb_checkpoints/
